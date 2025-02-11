@@ -86,7 +86,7 @@ N*K for the result
 
 K for the indexes
 
-$\Theta(N*K + K) = \Theta(N*K)$
+$\Theta(N*K + K) = \Theta(N\*K)$
 
 ### Possible Improvements
 Rather than always checking every vector for their smallest element, I can cut the loop short once there is only one vector with elements. The time complexity will not change, but will be an overall improvement. This will be more noticable when there is one vector with a significant amount of large elements compared to others.
